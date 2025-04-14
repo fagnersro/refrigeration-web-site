@@ -24,7 +24,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center space-x-2 mb-4" onClick={handleScrollToTop}>
               <Snowflake className="h-6 w-6 text-cooltech-400 dark:text-sky-400" />
-              <span className="font-bold text-white">CoolTech</span>
+              <span className="font-bold text-white">Orlifrio</span>
             </Link>
             <p className="text-slate-400 mb-4">{t("footer.description")}</p>
             <div className="flex space-x-4">

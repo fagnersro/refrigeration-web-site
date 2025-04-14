@@ -6,7 +6,7 @@ import ServiceCard from "@/components/service-card"
 import TestimonialCard from "@/components/testimonial-card"
 import HeroCarousel from "@/components/hero-carousel"
 import { useLocale } from "@/i18n/i18n-context"
-
+import Image from "next/image"
 export default function Home() {
   const { t } = useLocale()
 
@@ -16,7 +16,7 @@ export default function Home() {
       <HeroCarousel
         slides={[
           {
-            image: "/placeholder.svg?height=800&width=1200",
+            image: "/slide1.png?height=800&width=1200",
             title: t("homePage.heroSection.slide1.title"),
             description: t("homePage.heroSection.slide1.description"),
             primaryCta: {
@@ -29,7 +29,7 @@ export default function Home() {
             },
           },
           {
-            image: "/placeholder.svg?height=800&width=1200",
+            image: "/slide2.png?height=800&width=1200",
             title: t("homePage.heroSection.slide2.title"),
             description: t("homePage.heroSection.slide2.description"),
             primaryCta: {
@@ -42,7 +42,7 @@ export default function Home() {
             },
           },
           {
-            image: "/placeholder.svg?height=800&width=1200",
+            image: "/slide3.png?height=800&width=1200",
             title: t("homePage.heroSection.slide3.title"),
             description: t("homePage.heroSection.slide3.description"),
             primaryCta: {
@@ -130,6 +130,7 @@ export default function Home() {
       {/* Services Preview */}
       <section className="py-16 sm:py-24 bg-slate-50">
         <div className="container mx-auto px-4">
+          
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">{t("homePage.servicesPreviewSection.header.title")}</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">{t("homePage.servicesPreviewSection.header.description")}</p>

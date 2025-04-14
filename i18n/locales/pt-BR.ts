@@ -19,14 +19,14 @@ export const ptBR = {
   homePage: {
     heroSection: {
       slide1: {
-        title: "Soluções Avançadas de Refrigeração",
+        title: "Soluções de Refrigeração para seu negócio",
         description:
           "Tecnologias inovadoras de resfriamento para aplicações comerciais e industriais com soluções energeticamente eficientes.",
         primaryCta: "Nossos Serviços",
         secondaryCta: "Entre em Contato",
       },
       slide2: {
-        title: "Sistemas de Refrigeração Eficientes",
+        title: "Câmaras de Armazenamento Refrigerado",
         description:
           "Reduza custos operacionais e impacto ambiental com nossa tecnologia de refrigeração de última geração.",
         primaryCta: "Saiba Mais",
@@ -44,16 +44,16 @@ export const ptBR = {
     featuresSection: {
       features: {
         header: {
-          title: "Por Que Escolher a CoolTech",
+          title: "Por Que Escolher a Orlifrio",
           description: "Oferecemos soluções de refrigeração de ponta com foco em confiabilidade, eficiência e sustentabilidade.",
         },
         energyEfficient: {
           title: "Eficiente Energética",
-          description: "Nossos sistemas são projetados para minimizar o consumo de energia enquanto maximizam o desempenho de refrigeração.",
+          description: "Temos o compromisso de fazer com que seus sistemas de refrigeração sejam eficientes e duráveis, minimizando o consumo de energia e maximizando a eficiência de refrigeração.",
         },
         reliable: {
           title: "Confiável e Durável",
-          description: "Construído com componentes premium e respaldado por planos abrangentes de manutenção para operação de longo prazo.",
+          description: "Com nossa mão de obra especializada e respaldado técnico abrangentes trazemos soluções de refrigeração duradouras.",
         },
         smart: {
           title: "Tecnologia Inteligente",
@@ -95,12 +95,12 @@ export const ptBR = {
       },
       testimonials: {
         testimonial1: {
-          quote: "A CoolTech transformou nosso sistema de refrigeração desatualizado em uma solução moderna e energeticamente eficiente que reduziu nossos custos de energia em 30%.",
+          quote: "A Orlifrio transformou nosso sistema de refrigeração desatualizado em uma solução moderna e energeticamente eficiente que reduziu nossos custos de energia em 30%.",
           author: "John Smith",
           company: "Mercado de Alimentos Frescos",
         },
         testimonial2: {
-          quote: "A equipe da CoolTech e sua expertise e profissionalismo fizeram nosso projeto de expansão de armazenamento refrigerado perfeito. Altamente recomendado!",
+          quote: "A equipe da Orlifrio e sua expertise e profissionalismo fizeram nosso projeto de expansão de armazenamento refrigerado perfeito. Altamente recomendado!",
           author: "Sarah Johnson",
           company: "Logística Internacional",
         },
@@ -121,7 +121,7 @@ export const ptBR = {
 
   aboutPage: {
     heroSection: {
-      title: "Sobre a CoolTech",
+      title: "Sobre a Orlifrio",
       description1: "Há mais de 20 anos, estamos na vanguarda da tecnologia de refrigeração, fornecendo soluções de resfriamento inovadoras para empresas em todo o país.",
       description2: "Nossa equipe de engenheiros e técnicos certificados combina experiência do setor com tecnologia de ponta para projetar, instalar e manter sistemas de refrigeração que atendem aos mais altos padrões de eficiência e confiabilidade.",
     },
@@ -155,7 +155,7 @@ export const ptBR = {
         member1: {
           name: "Robert Johnson",
           role: "CEO & Fundador",
-          description: "Com mais de 25 anos de experiência na engenharia de refrigeração, Robert fundou a CoolTech com uma visão de revolucionar o setor.",
+          description: "Com mais de 25 anos de experiência na engenharia de refrigeração, Robert fundou a Orlifrio com uma visão de revolucionar o setor.",
         },
         member2: {
           name: "Maria Rodriguez",
@@ -179,7 +179,7 @@ export const ptBR = {
           year1: {
             year: "2003",
             event: "Fundada",
-            description: "CoolTech foi fundada com o objetivo de fornecer soluções de refrigeração energeticamente eficientes.",
+            description: "Orlifrio foi fundada com o objetivo de fornecer soluções de refrigeração energeticamente eficientes.",
           },
           year2: {
             year: "2008",

@@ -60,8 +60,18 @@ export default function HeroCarousel({ slides, autoplaySpeed = 5000 }: HeroCarou
       >
         {slides.map((slide, index) => (
           <div key={index} className="w-full flex-shrink-0">
-            <div className="relative bg-gradient-to-b from-cooltech-700 to-cooltech-800 text-white dark:from-slate-900 dark:to-slate-800">
-              <div className="container mx-auto px-4 py-24 sm:py-32">
+            <div className="relative bg-gradient-to-b from-cooltech-700 to-cooltech-700 text-white dark:from-slate-900 dark:to-slate-800">
+              {/* Background Image */}
+              <div className="absolute inset-0 z-0">
+                <Image
+                  src={slide.image || "/placeholder.svg"}
+                  alt=""
+                  fill
+                  className="object-cover opacity-50"
+                  priority
+                />
+              </div>
+              <div className="container mx-auto px-4 py-24 sm:py-32 relative z-10">
                 <div className="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
                   <div className="space-y-6">
                     <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">{slide.title}</h1>
@@ -76,10 +86,10 @@ export default function HeroCarousel({ slides, autoplaySpeed = 5000 }: HeroCarou
                       </Button>
                       {slide.secondaryCta && (
                         <Button
-                          asChild
-                          variant="outline"
-                          size="lg"
-                          className="border-white text-white hover:bg-white/10"
+                        asChild
+                        variant="outline"
+                        size="lg"
+                        className="border-white text-black dark:text-white hover:bg-white/10"
                         >
                           <Link href={slide.secondaryCta.href}>{slide.secondaryCta.text}</Link>
                         </Button>

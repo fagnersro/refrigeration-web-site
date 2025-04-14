@@ -98,7 +98,7 @@ export default function ServicesPage() {
               </div>
               <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden shadow-lg order-1 md:order-2">
                 <Image
-                  src="/placeholder.svg?height=800&width=1200"
+                  src="/bg-comercial.png?height=800&width=1200"
                   alt="Commercial refrigeration systems"
                   fill
                   className="object-cover"

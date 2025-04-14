@@ -44,16 +44,16 @@ export const enUS = {
     featuresSection: {
       features: {
         header: {
-          title: "Why Choose CoolTech",
+          title: "Why Choose Orlifrio",
           description: "We deliver cutting-edge refrigeration solutions with a focus on reliability, efficiency, and sustainability.",
         },
         energyEfficient: {
           title: "Energy Efficient",
-          description: "Our systems are designed to minimize energy consumption while maximizing cooling performance.",
+          description: "We are committed to making your refrigeration systems efficient and durable, minimizing energy consumption and maximizing cooling efficiency.",
         },
         reliable: {
           title: "Reliable & Durable",
-          description: "Built with premium components and backed by comprehensive maintenance plans for long-term operation.",
+          description: "With our specialized workforce and comprehensive technical support, we bring durable refrigeration solutions.",
         },
         smart: {
           title: "Smart Technology",
@@ -96,7 +96,7 @@ export const enUS = {
 
       testimonials: {
         testimonial1: {
-          quote: "CoolTech transformed our outdated refrigeration system into a modern, energy-efficient solution that reduced our energy costs by 30%.",
+          quote: "Orlifrio transformed our outdated refrigeration system into a modern, energy-efficient solution that reduced our energy costs by 30%.",
           author: "John Smith",
           company: "Fresh Foods Market",
         },
@@ -124,7 +124,7 @@ export const enUS = {
 
   aboutPage: {
     heroSection: {
-      title: "About CoolTech",
+      title: "About Orlifrio",
       description1: "For over 20 years, we've been at the forefront of refrigeration technology, delivering innovative cooling solutions to businesses across the country.",
       description2: "Our team of certified engineers and technicians combines industry expertise with cutting-edge technology to design, install, and maintain refrigeration systems that meet the highest standards of efficiency and reliability.",
     },
@@ -157,7 +157,7 @@ export const enUS = {
         member1: {
           name: "Robert Johnson",
           role: "CEO & Founder",
-          description: "With over 25 years of experience in refrigeration engineering, Robert founded CoolTech with a vision to revolutionize the industry.",
+          description: "With over 25 years of experience in refrigeration engineering, Robert founded Orlifrio with a vision to revolutionize the industry.",
         },
         member2: {
           name: "Maria Rodriguez",
@@ -180,7 +180,7 @@ export const enUS = {
         year1: {
           year: "2003",
           event: "Company Founded",
-          description: "CoolTech was established with a focus on providing energy-efficient refrigeration solutions.",
+          description: "Orlifrio was established with a focus on providing energy-efficient refrigeration solutions.",
         },
         year2: {
           year: "2008",

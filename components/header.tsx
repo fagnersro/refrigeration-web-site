@@ -51,7 +51,7 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2" onClick={() => handleNavigation("/")}>
           <Snowflake className="h-6 w-6 text-cooltech-600 dark:text-sky-600" />
-          <span className="hidden font-bold sm:inline-block">CoolTech</span>
+          <span className="hidden font-bold sm:inline-block">Orlifrio</span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6">

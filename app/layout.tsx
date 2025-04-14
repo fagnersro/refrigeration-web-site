@@ -12,10 +12,9 @@ import { LocaleProvider } from "@/i18n/i18n-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "CoolTech Refrigeration Solutions",
-  description: "Professional refrigeration services for commercial and industrial needs",
-  keywords: "refrigeration, cold storage, commercial refrigeration, industrial cooling",
-    generator: 'v0.dev'
+  title: "Orlifrio Soluções em Refrigeração",
+  description: "Soluções de refrigeração profissionais para necessidades comerciais e industriais",
+  keywords: "refrigeração, armazéns frios, refrigeração comercial, arrefecimento industrial"
 }
 
 export default function RootLayout({
@@ -24,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="pt-BR" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <LocaleProvider>
