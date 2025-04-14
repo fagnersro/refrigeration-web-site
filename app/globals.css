@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light theme colors */
+    --background: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 199 89% 48%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 199 89% 48%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark theme colors */
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 199 89% 48%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 199 89% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Light theme specific styles */
+.bg-slate-50 {
+  background-color: #f8fafc;
+}
+
+.bg-slate-100 {
+  background-color: #f1f5f9;
+}
+
+.bg-slate-200 {
+  background-color: #e2e8f0;
+}
+
+.bg-sky-100 {
+  background-color: #e0f2fe;
+}
+
+.text-sky-600 {
+  color: #0284c7;
+}
+
+.bg-sky-600 {
+  background-color: #0284c7;
+}
+
+.hover\:bg-sky-700:hover {
+  background-color: #0369a1;
+}
+
+/* Dark theme specific overrides */
+.dark .bg-slate-50 {
+  background-color: hsl(222.2, 84%, 4.9%);
+}
+
+.dark .bg-slate-100 {
+  background-color: hsl(215, 25%, 15%);
+}
+
+.dark .bg-slate-200 {
+  background-color: hsl(215, 25%, 20%);
+}
+
+.dark .bg-sky-100 {
+  background-color: hsl(199, 80%, 15%);
+}
+
+.dark .text-sky-600 {
+  color: hsl(199, 89%, 60%);
+}
+
+.dark .bg-sky-600 {
+  background-color: hsl(199, 89%, 48%);
+}
+
+.dark .hover\:bg-sky-700:hover {
+  background-color: hsl(199, 89%, 40%);
+}
+
+/* Ensure footer maintains its dark appearance in both modes */
+footer.bg-cooltech-800 {
+  background-color: #075985;
+}
+
+.dark footer.bg-cooltech-800 {
+  background-color: #000000;
+}
+
+/* Alternating section backgrounds for light theme */
+section:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+section:nth-of-type(even) {
+  background-color: #f8fafc;
+}
+
+/* Override for dark theme sections */
+.dark section:nth-of-type(odd) {
+  background-color: hsl(222.2, 84%, 4.9%);
+}
+
+.dark section:nth-of-type(even) {
+  background-color: hsl(215, 25%, 10%);
+}
+
+/* Override for specific sections that need to maintain their styling */
+section.bg-cooltech-700 {
+  background-color: #0369a1;
+  color: white;
+}
+
+.dark section.bg-cooltech-700 {
+  background-color: #0c4a6e;
+  color: white;
+}
+
+section.bg-slate-900 {
+  background-color: #0f172a;
+  color: white;
+}
+
+.dark section.bg-slate-900 {
+  background-color: #020617;
+  color: white;
+}
